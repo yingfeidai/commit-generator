@@ -1,6 +1,6 @@
 {
-  "name": "@yingfeidai/-git-cli",
-  "version": "1.0.1",
+  "name": "@yingfeidai/my-git-cli",
+  "version": "1.0.2",
   "description": "A custom Git CLI",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
