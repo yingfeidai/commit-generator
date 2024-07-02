@@ -1,0 +1,32 @@
+{
+  "name": "my-git-cli",
+  "version": "1.0.0",
+  "description": "A custom Git CLI",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "husky install"
+  },
+  "bin": {
+    "my-git-cli": "dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^19.2.2",
+    "@types/inquirer": "^9.0.7",
+    "commitlint": "^19.3.0",
+    "husky": "^9.0.11",
+    "typescript": "^5.5.3"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "dependencies": {
+    "inquirer": "^9.3.2"
+  }
+}
