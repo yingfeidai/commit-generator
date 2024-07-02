@@ -1,9 +1,12 @@
 {
-  "name": "my-git-cli",
+  "name": "@yingfeidai/-git-cli",
   "version": "1.0.0",
   "description": "A custom Git CLI",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "publishConfig": {
+    "@yingfeidai:registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "build": "tsc",
     "prepare": "husky install"
@@ -17,6 +20,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "^19.2.2",
     "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.14.9",
     "commitlint": "^19.3.0",
     "husky": "^9.0.11",
     "typescript": "^5.5.3"
@@ -27,6 +31,6 @@
     }
   },
   "dependencies": {
-    "inquirer": "^9.3.2"
+    "inquirer": "8.2.5"
   }
 }
