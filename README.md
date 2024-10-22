@@ -29,7 +29,7 @@ revert: ⏪️ Revert a commit
 To install My Git CLI, you can use npm or pnpm:
 
 ```sh
-npm install @yingfeidai/my-git-cli@version
+npm install -g @yingfeidai/my-git-cli@version
 # or
-pnpm install @yingfeidai/my-git-cli@version
+pnpm install -g @yingfeidai/my-git-cli@version
 ```
